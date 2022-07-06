@@ -20,7 +20,7 @@ body{
 }
 p{
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 18px;
     color: #707070;
 }
@@ -73,7 +73,7 @@ h2{
     width: 135px;
     border-radius: 5px;
 }
-.red{
+#red{
     font-weight: 700;
     font-size: 30px;
     background: #FFEEEE;
