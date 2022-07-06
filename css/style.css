@@ -152,14 +152,13 @@ input[type=email] {
     font-size: 16px;
     padding-left: 18px;
 }
-input[type=submit]{
-    position: relative;
+input[type=submit]{  
     font-family: 'Roboto', sans-serif;
     height: 53px;
     width: 157px;
     border: none;
     outline: none;
-    left: -5px;
+    margin: -5px;
     font-weight: 500;
     font-size: 16px;
     background: #FF5959;
