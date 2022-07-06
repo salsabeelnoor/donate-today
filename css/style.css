@@ -1,6 +1,7 @@
 body{
     font-family: 'Inter', sans-serif;
     margin:0;
+    padding: 0px;
 
 }
 .head-container{
@@ -11,14 +12,14 @@ body{
     background-size: cover;
     text-align: center;
 }
-h1{
+.head-container h1{
     font-size: 70px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 p{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
 }
 .white{
     color: white;
@@ -56,9 +57,9 @@ h2{
     padding-right: 375px;
     margin-bottom: 50px;
 }
-h3{
+.money{
     padding: 45px 25px;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 30px;
     color: #707070;
     background-color: #FAFAFA;
@@ -82,8 +83,114 @@ input[type=text] {
     padding-bottom: 10px;
     
 }
-::placeholder{
-    color: #B3B3B3;
-    
+::placeholder{   
+    color: #AA9F9F;
+}
+/* section - 3 */
+.flex-container{
+    display: flex;
+    padding-left: 157px;
+    padding-right: 157px;
+    margin-bottom: 130px;
+}
+.box-container{  
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    margin-left: 28px;
+    width: 33.33%;
+}
+.box-container img{
+    padding-top: 64px;
+}
+.txt{
+    margin-bottom: 57px;
+    padding-right: 22px;
+}
+.txt h3{
+    font-weight: 600;
+    font-size: 24px;
+}
+.blue{
+    background: rgba(79, 157, 166, 0.1);
+}
+.pink{
+    background: rgba(255, 89, 89, 0.1);
+}
+.yellow{
+    background: #FFF4D6;
+}
+/* section 4 */
+
+.subscribe-form{
+    margin-left: 316px;
+    margin-right: 316px;
+    margin-bottom: 50px;
+    padding-top: 76px;
+    padding-bottom: 46px;
+    background: #FFF4D6;
+    text-align: center;
+}
+input[type=email] {
+    margin-bottom: 30px;
+    height: 50px;
+    width: 275px;
+    border: none;
+    outline: none;  
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 18px;
+}
+input[type=submit]{
+    position: relative;
+    height: 53px;
+    width: 157px;
+    border: none;
+    outline: none;
+    left: -5px;
+    font-weight: 500;
+    font-size: 16px;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    color: #FFFFFF;
+}
+/* section 5 */
+.mission{
+    display: flex;
+}
+.overview{
+    width: 33.33%;
+    margin-right: 25px;
+    padding-left: 50px;
+    padding-right: 10px;
+    text-align: center;
+}
+.overview h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: .25em;
+    color: #af9659;
+}
+.overview h3{
+    font-size: 25px;
+    font-weight: 900;
+    line-height: .25em;
+}
+footer{
+    background-color: black;
+    color: #FF5959;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.footer-h2{
+    font-size: 36px;
+    font-style: oblique;
+    font-weight: 400;
+    font-family: 'Lobster';
 }
 
